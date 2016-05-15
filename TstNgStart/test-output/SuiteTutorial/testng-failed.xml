@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteTutorial]">
+  <test name="GroupingTutorial(failed)">
+    <groups>
+      <run>
+        <include name="System"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SeleniumTests.Class4">
+        <methods>
+          <include name="RunWeekly"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- SeleniumTests.Class4 -->
+    </classes>
+  </test> <!-- GroupingTutorial(failed) -->
+</suite> <!-- Failed suite [SuiteTutorial] -->
